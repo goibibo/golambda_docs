@@ -83,3 +83,8 @@ Test your Setup
 		        "mobile": "<any valid phone number>"
 		        }
 	}
+
+How to update local setup
+^^^^^^^^^^^^^^^^^^^^^^^^^
+* In order to update the golambda image in your local setup, run ``docker pull 017357459259.dkr.ecr.ap-south-1.amazonaws.com/gia-dev:golambdalatest``
+* If you face the authentication issue, run ``$(aws ecr get-login --no-include-email --region ap-south-1)`` before running the above command.
