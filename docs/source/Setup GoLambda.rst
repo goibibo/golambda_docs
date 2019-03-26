@@ -88,3 +88,10 @@ How to update local setup
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 * In order to update the golambda image in your local setup, run ``docker pull 017357459259.dkr.ecr.ap-south-1.amazonaws.com/gia-dev:golambdalatest``
 * If you face the authentication issue, run ``$(aws ecr get-login --no-include-email --region ap-south-1)`` before running the above command.
+
+
+Migration to Golambda 3.0
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* In order to migrate to Golambda 3.0, you need to replace line in your docker file from ``docker pull 017357459259.dkr.ecr.ap-south-1.amazonaws.com/gia-dev:golambdalatest`` to ``docker pull 017357459259.dkr.ecr.ap-south-1.amazonaws.com/gia-dev:golambdalatest3``
+* Run docker-compose build after that
