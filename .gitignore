@@ -1,0 +1,4 @@
+#Ignore mac Desktop Service Store
+.DS_Store
+
+.idea/
