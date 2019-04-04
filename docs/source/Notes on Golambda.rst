@@ -10,12 +10,15 @@ Usage:
 This statement will query the middleware for the booking of pid taken from self.paymentid and return you a object with
 the following keys
 
+
+`
 "aa", "airline_phone_no", "alnm", "amount", "an", "auto_cin", "bid", "booking_type", "bref", "bst", "checkint",
 "checkout", "checkoutt", "cid", "client_flavour", "color", "cp", "created", "db_status", "departure", "dest", "destcode",
 "destterm", "destvid", "fd_product", "flt_duration", "fno", "gcpamount", "hn", "hotel_id", "hoteladdr", "hpn", "hvid",
 "id", "installment_link", "irctc_error", "isHotline", "is_hotelier_chat_enabled", "is_ppe", "is_refundable", "lat",
 "lid", "long", "mid", "on", "package_name", "pax_email", "pax_list", "pax_mobile", "pay_mode", "pid", "print", "rt",
 "src", "srccode", "srcterm", "srcvid", "title", "ugc", "vendor", "vertical", "vouchers"
+`
 
 
 * Whenever you create a class extending GoibiboAction class and call init of the super class, goLambda framework add the
@@ -27,6 +30,7 @@ self.intent_name, self.channel, self.lid, self.email, self.user_id
 * Whenever you create an Intent Class, Framework adds some of the common attributes by default. If you have any attribute
 other than these, only then you need to add the attribute in the intent class. The attributes that are default are:
 
+`
 'pid': Attribute(value_type=unicode, IsMandatory=False, path='paymentid'),
 'lid': Attribute(value_type=unicode, IsMandatory=False, path='lid'),
 'email': Attribute(value_type=unicode, IsMandatory=False, path='email'),
@@ -50,4 +54,4 @@ other than these, only then you need to add the attribute in the intent class. T
 'user_type': Attribute(value_type=int, IsMandatory=False, default_value=0, path='user_type'),
 'vertical': Attribute(value_type=unicode, IsMandatory=False, default_value=u'', path='e.vertical'),
 'first_time': Attribute(value_type=bool, IsMandatory=False, default_value=False, path='first_time')
-
+`
