@@ -11,7 +11,7 @@ Golambda is the python based backend which powers Goibibo Chat bot -GIA. Here we
    Writing sample Hello World Flow
    Classes
    Some more examples
-
+   Notes on GoLambda Framework
 
 
 Indices and tables
