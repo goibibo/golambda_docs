@@ -93,5 +93,5 @@ How to update local setup
 Migration to Golambda 3.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* In order to migrate to Golambda 3.0, you need to replace line in your docker file from ``docker pull 017357459259.dkr.ecr.ap-south-1.amazonaws.com/gia-dev:golambdalatest`` to ``docker pull 017357459259.dkr.ecr.ap-south-1.amazonaws.com/gia-dev:golambdalatest3.13``
+* In order to migrate to Golambda 3.0, you need to replace line in your docker file from ``docker pull 017357459259.dkr.ecr.ap-south-1.amazonaws.com/gia-dev:golambdalatest`` to ``docker pull 017357459259.dkr.ecr.ap-south-1.amazonaws.com/gia-dev:golambdalatest3.21``
 * Run docker-compose build after that
